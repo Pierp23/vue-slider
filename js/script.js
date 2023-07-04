@@ -29,7 +29,7 @@ createApp({
         indexActive: 0}
     },
     methods: {
-        prevClick(indice){
+        prevClick(){
             if(this.indexActive > 0){
                 this.indexActive--;
             }
@@ -39,7 +39,7 @@ createApp({
            
 
         },
-        nextClick(indice){
+        nextClick(){
             if(this.indexActive < this.slides.length - 1){
                 this.indexActive++;
             }
