@@ -50,6 +50,11 @@ createApp({
         changeImg(i){
             this.indexActive = i;
         }
+    },
+    mounted() {
+        setInterval(()=> {
+            this.nextClick();
+        }, 3000)
     }
 }).mount('#app');
 
